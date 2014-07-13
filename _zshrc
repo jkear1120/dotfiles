@@ -134,6 +134,16 @@ alias ssh2='ssh_lab'
 alias hssh='ssh_home27'
 alias e='exit'
 
+# git 関連
+alias gs='git status'
+alias gpl='git pull'
+alias gpu='git push'
+alias ga='git add'
+alias gr='git rm'
+alias gc='git commit -m'
+alias gco='git checkout'
+
+
 # sudo の後のコマンドでエイリアスを有効にする
 alias sudo='sudo '
 
@@ -169,3 +179,6 @@ esac
 
 # vim:set ft=zsh:
 
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
